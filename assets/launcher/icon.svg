@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- The app's icon (the "Flamingo — ícone" design): the cover's flamingo standing before the sun; 48 px and up. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b0f42"/><stop offset="1" stop-color="#6e2160"/></linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe9a3"/><stop offset="1" stop-color="#ffab5c"/></linearGradient>
+    <clipPath id="clip"><rect x="0" y="0" width="256" height="256" rx="58"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect x="0" y="0" width="256" height="256" fill="url(#bg)"/>
+    <circle cx="150" cy="168" r="78" fill="url(#sun)"/>
+    <rect x="60" y="150" width="200" height="5" fill="#6e2160"/>
+    <rect x="60" y="162" width="200" height="7" fill="#6e2160"/>
+    <rect x="0" y="182" width="256" height="74" fill="#1a0b28"/>
+    <rect x="92" y="196" width="80" height="4" rx="2" fill="#ff6f9f" opacity="0.4"/>
+    <rect x="108" y="210" width="48" height="3" rx="1.5" fill="#ff6f9f" opacity="0.25"/>
+    <g transform="translate(118 190) scale(1.15)">
+      <path d="M0 0 V-56" stroke="#e64f7f" stroke-width="5" stroke-linecap="round"/>
+      <path d="M6 -56 L17 -33 L3 -28" fill="none" stroke="#e64f7f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M-26 -70 C -30 -88, 0 -96, 22 -86 C 35 -80, 31 -63, 14 -59 C 0 -56, -21 -58, -26 -70 Z" fill="#ff6f9f"/>
+      <path d="M-26 -70 L -40 -77 L -35 -65 Z" fill="#e64f7f"/>
+      <path d="M-10 -77 C 3 -86, 18 -82, 21 -71 C 10 -66, -3 -68, -10 -77 Z" fill="#e0457a"/>
+      <path d="M19 -83 C 32 -101, 4 -114, 10 -132 C 14 -144, 29 -144, 31 -134" fill="none" stroke="#ff6f9f" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="31" cy="-135" r="7.5" fill="#ff7fa8"/>
+      <circle cx="32" cy="-137" r="1.8" fill="#1a0b22"/>
+      <path d="M36 -139 L51 -132 L44 -123 Z" fill="#fff1f5"/>
+      <path d="M46 -129 L51 -132 L44 -123 Z" fill="#1a0b22"/>
+    </g>
+  </g>
+</svg>

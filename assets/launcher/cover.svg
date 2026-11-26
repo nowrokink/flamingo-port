@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 200" width="1280" height="200">
+  <!-- The launcher's cover (the "Flamingo — pronto" design): sky, banded sun, skyline, sea, palms, the flamingo. -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#160a28"/><stop offset="0.5" stop-color="#4b1a63"/><stop offset="0.82" stop-color="#c2477a"/><stop offset="1" stop-color="#ff9b5c"/></linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe08a"/><stop offset="1" stop-color="#ff5f8f"/></linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a1550"/><stop offset="1" stop-color="#140b20"/></linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0.3" stop-color="#140b20" stop-opacity="0"/><stop offset="1" stop-color="#140b20" stop-opacity="0.95"/></linearGradient>
+    <mask id="bands"><rect x="0" y="0" width="1280" height="200" fill="#fff"/><rect x="0" y="94" width="1280" height="3" fill="#000"/><rect x="0" y="106" width="1280" height="4" fill="#000"/><rect x="0" y="118" width="1280" height="6" fill="#000"/></mask>
+    <g id="palm">
+      <path d="M0 0 C 4 -50, 14 -100, 32 -140" fill="none" stroke="#0e0617" stroke-width="7" stroke-linecap="round"/>
+      <path d="M32 -140 C 8 -152, -18 -148, -36 -126 C -12 -138, 10 -140, 32 -140 Z" fill="#0e0617"/>
+      <path d="M32 -140 C 14 -166, -6 -174, -24 -170 C -4 -160, 14 -152, 32 -140 Z" fill="#0e0617"/>
+      <path d="M32 -140 C 46 -170, 70 -178, 90 -168 C 70 -162, 50 -154, 32 -140 Z" fill="#0e0617"/>
+      <path d="M32 -140 C 60 -150, 88 -142, 102 -120 C 80 -132, 56 -138, 32 -140 Z" fill="#0e0617"/>
+    </g>
+  </defs>
+  <rect x="0" y="0" width="1280" height="140" fill="url(#sky)"/>
+  <circle cx="900" cy="124" r="72" fill="url(#sun)" mask="url(#bands)"/>
+  <path d="M560 140 V122 h26 V110 h18 V122 h14 V90 h22 V122 h16 V104 h30 V122 h12 V78 h20 V122 h22 V114 h24 V122 h18 V98 h26 V122 h14 V108 h20 V122 h30 V96 h18 V122 h46 V140 Z" fill="#2b1140" opacity="0.9"/>
+  <rect x="0" y="140" width="1280" height="60" fill="url(#sea)"/>
+  <rect x="840" y="150" width="120" height="3" fill="#ff8aa0" opacity="0.55"/>
+  <rect x="862" y="162" width="76" height="2" fill="#ff8aa0" opacity="0.35"/>
+  <use href="#palm" transform="translate(70 210) scale(1.05)"/>
+  <use href="#palm" transform="translate(1220 210) scale(-0.95 0.95)"/>
+  <rect x="0" y="0" width="1280" height="200" fill="url(#fade)"/>
+  <g transform="translate(470 186) scale(0.85)">
+    <path d="M0 0 V-56" stroke="#e0567f" stroke-width="3" stroke-linecap="round"/>
+    <path d="M6 -56 L16 -34 L3 -29" fill="none" stroke="#e0567f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-26 -70 C -30 -88, 0 -96, 22 -86 C 35 -80, 31 -63, 14 -59 C 0 -56, -21 -58, -26 -70 Z" fill="#ff7fa8"/>
+    <path d="M-10 -77 C 3 -86, 18 -82, 21 -71 C 10 -66, -3 -68, -10 -77 Z" fill="#ff5f8f"/>
+    <path d="M19 -83 C 32 -101, 4 -114, 10 -132 C 14 -144, 29 -144, 31 -134" fill="none" stroke="#ff7fa8" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="31" cy="-135" r="5.5" fill="#ff8fb3"/>
+    <path d="M35 -137 L47 -132 L42 -125 Z" fill="#ffe6ee"/>
+    <path d="M43 -130 L47 -132 L42 -125 Z" fill="#1a0b22"/>
+  </g>
+</svg>

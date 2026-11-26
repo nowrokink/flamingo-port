@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><ServerGarbageCollection>true</ServerGarbageCollection></PropertyGroup>
+  <!-- tools/rpf9-explorer/Core is a copy kept in this repository (no submodule); see SOURCE.md there -->
+  <ItemGroup><ProjectReference Include="..\rpf9-explorer\Core\RpfPreview.Core.csproj" /></ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.sln text eol=crlf
+
+*.bat text eol=crlf
+
+# vendored code is kept byte-for-byte so it still matches tools/rpf9-explorer/SHA256SUMS
+tools/rpf9-explorer/** -text

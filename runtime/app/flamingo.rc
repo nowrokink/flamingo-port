@@ -1,0 +1,7 @@
+// FlamingoPort.exe's resources: the app icon (Explorer, the taskbar, the window's title bar) and the launcher's art,
+// all drawn for this project (assets/launcher/*.svg, rasterized by tools/gen_launcher_art.py; nothing from the game).
+#include "app/resources.h"
+
+IDI_FLAMINGO ICON "../../assets/launcher/flamingo.ico"
+IDR_COVER RCDATA "../../assets/launcher/cover.png"
+IDR_SPLASH RCDATA "../../assets/launcher/splash.png"
